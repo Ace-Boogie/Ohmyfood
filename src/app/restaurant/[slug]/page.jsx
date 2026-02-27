@@ -1,6 +1,5 @@
-import data from "@/data/restaurants.json";
-import styles from "./page.module.css";
-import RestaurantHeader from "@/components/RestaurantHeader/RestaurantHeader";
+import data from "../../../data/restaurants.json";
+import RestaurantHeader from "../../../components/RestaurantHeader/RestaurantHeader";
 import {notFound} from "next/navigation";
 
 export async function generateMetadata({ params }) {
