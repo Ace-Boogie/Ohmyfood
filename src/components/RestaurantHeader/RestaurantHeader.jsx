@@ -1,8 +1,8 @@
 import "@/app/styles.css";
-import LikeButton from "@/components/LikeButton/LikeButton";
+import LikeButton from "../LikeButton/LikeButton";
 import Image from "next/image";
-import Menu from "@/components/Menu/Menu";
-import CommandButton from "@/components/CommandButton/CommandButton";
+import Menu from "../Menu/Menu";
+import CommandButton from "../CommandButton/CommandButton";
 
 export default function RestaurantHeader({name, image, slug, menu}) {
     console.log(menu)

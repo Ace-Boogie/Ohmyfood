@@ -1,5 +1,5 @@
 import styles from "./Menu.module.css"
-import MenuItem from "@/components/MenuItem/MenuItem";
+import MenuItem from "../MenuItem/MenuItem";
 
 export default function Menu({menu, type}) {
     return (
