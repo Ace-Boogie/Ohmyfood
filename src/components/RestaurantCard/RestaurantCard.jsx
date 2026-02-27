@@ -15,7 +15,7 @@ export default function RestaurantCard({name, image, location, slug, isNew}) {
                 width={3000}
                 height={2000}
                 quality={90}
-                preload={true}
+                priority
                 className={styles.image}
             />
             <div className={styles.mainContent}>
