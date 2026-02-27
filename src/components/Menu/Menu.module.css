@@ -1,0 +1,32 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 5%;
+}
+@media (max-width: 767px) {
+    .menu {
+        width: 95%;
+    }
+}
+
+.sectionTitle {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    /*margin-bottom: 1.5rem;*/
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.sectionTitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background: #99E2D0;
+}
