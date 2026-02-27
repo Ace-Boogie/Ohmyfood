@@ -1,4 +1,4 @@
-import "@/app/styles.css";
+import "../../app/styles.css";
 import LikeButton from "../LikeButton/LikeButton";
 import Image from "next/image";
 import Menu from "../Menu/Menu";
